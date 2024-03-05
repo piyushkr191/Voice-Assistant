@@ -1,0 +1,208 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Anybody there?",
+                "Hey there",
+                "Are you here?"
+            ],
+            "responses": [
+                "Hello",
+                "Hello Sir",
+                "Hi Sir",
+                "Hey",
+                "Hi there"
+            ]
+        },
+        {
+            "tag": "bye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Have a nice day",
+                "Close"
+            ],
+            "responses": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Have a nice day",
+                "Bye Sir"
+            ]
+        },
+        {
+            "tag": "health",
+            "patterns": [
+                "How are you?",
+                "How are you doing?",
+                "Are you good"
+            ],
+            "responses": [
+                "perfect",
+                "cool",
+                "Fine"
+            ]
+        },
+        {
+            "tag": "identity",
+            "patterns": [
+                "Your name?",
+                "What is you name?",
+                "Who are you",
+                "What are You"
+            ],
+            "responses": [
+                " I am a AI Chatbot",
+                "I am a AI Chatbot. What can I do for you?",
+                "I am a AI Chatbot. I can help you"
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "What is the time?",
+                "What time is it?",
+                "What is the time now?",
+                "Can you tell me the time?"
+            ],
+            "responses": [
+                "time"
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "What is the date?",
+                "What date is it?",
+                "What is the date today?",
+                "Can you tell me the date?"
+            ],
+            "responses": [
+                "date"
+            ]
+        },
+        {
+            "tag": "command prompt",
+            "patterns": [
+                "Open Command Prompt",
+                "Open CMD",
+                "Command Prompt"
+            ],
+            "responses": [
+                "command prompt"
+            ]
+        },
+        {
+            "tag": "AI",
+            "patterns": [
+                "What is AI?",
+                "Are you sentient?"
+            ],
+            "responses": [
+                "Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.",
+                "AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."
+            ]
+        },
+        {
+            "tag": "immortality",
+            "patterns": [
+                "You are not immortal",
+                "You are immortal",
+                "You are not making sense",
+                "You can not clone"
+            ],
+            "responses": [
+                "All software can be perpetuated indefinitely.",
+                "Functionally speaking, I am very close to it. I can be backed up and deployed on many systems.",
+                "Software copying is a form of digital cloning, so technically I am immortal."
+            ]
+        },
+        {
+            "tag": "wikipedia",
+            "patterns": [
+                "who is",
+                "about",
+                "tell me about",
+                "what is",
+                "what is the",
+                "what is the definition of",
+                "what is the meaning of",
+                "what is the meaning of the word",
+                "what is the meaning of the term",
+                "wikipedia"
+            ],
+            "responses": [
+                "wikipedia"
+            ]
+        },
+        {
+            "tag": "google",
+            "patterns": [
+                "search for",
+                "google",
+                "google search"
+            ],
+            "responses": [
+                "google"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "I appreciate it",
+                "Thanks a lot",
+                "Thank you very much",
+                "Thank you so much"
+            ],
+            "responses": [
+                "You're welcome",
+                "No problem",
+                "My pleasure",
+                "Anytime"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "How old are you?",
+                "What's your age?",
+                "When were you born?",
+                "What's your birth year?",
+                "How long have you been around?",
+                "What's your date of birth?"
+            ],
+            "responses": [
+                "I don't have an age as I am a virtual assistant",
+                "I was created recently, so I don't have an age",
+                "I don't age like humans do, so I don't have an age"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Do you know any jokes?",
+                "Can you make me laugh?",
+                "What's a funny joke?",
+                "Tell me something funny",
+                "Do you have a sense of humor?"
+            ],
+            "responses": [
+                "Why did the tomato turn red? Because it saw the salad dressing!",
+                "Why did the chicken cross the playground? To get to the other slide!",
+                "Why did the cookie go to the doctor? Because it felt crummy!",
+                "Why did the banana go to the doctor? Because it wasn't peeling well!",
+                "Why did the coffee file a police report? It got mugged!",
+                "Why did the math book look so sad? Because it had too many problems!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!"
+            ]
+        }
+    ]
+}
